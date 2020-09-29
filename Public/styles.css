@@ -102,3 +102,98 @@ head {
     color: #FFFEFE;
     text-decoration: none
 }
+
+.players {
+    margin-left: 350px;
+    width: 822px;
+    height: 433px;
+    left: 239px;
+    bottom: 137px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+#Spectator {
+    margin-left: 519px;
+    width: 227px;
+    height: 85px;
+    left: 607px;
+    top: 500px;
+    background: #8C6116;
+    border: 1px solid #000000;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+#player {
+    margin-left: 270px;
+    position: absolute;
+    width: 227px;
+    height: 85px;
+    left: 607px;
+    top: 500px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #8C6116;
+    border: 1px solid #000000;
+}
+
+#PlayerName {
+    width: 351px;
+    height: 85px;
+    position: absolute;
+    top: 500px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: bottom;
+    letter-spacing: 0.04em;
+    color: #000000;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.04em;
+    background: #ffffff;
+    color: #000000;
+}
+
+.add {
+    padding: bottom;
+    /* position: center; */
+    /* border: 3px solid red;
+    top: 10px;
+    width: 50%; */
+    /* bottom: 500px; */
+    /* right: 1px; */
+    /* margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px; */
+    /* display: block; */
+    /* margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto; */
+    /* position: -webkit-sticky;
+    position: center;
+    top: 200px; */
+}
