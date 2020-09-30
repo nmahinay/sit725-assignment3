@@ -9,7 +9,7 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <script src="./env.js"></script>
 </head>
 
 <body>
@@ -17,11 +17,10 @@
     </div>
     <div id="bodyGame">
         <div class="GameIntro">
+
             <h2 class="players">Players</h2>
-
-
             <input placeholder="Enter Name...." id="PlayerName" type="text" class="validate">
-            <button id="Player" onclick="SignIn()"><a id="buttonText" href="./AddingPlayer.html">Join as Player</a></button>
+            <button id="Player" onclick="AddName()"><a id="buttonText" href="./AddingPlayer.html">Join as Player</a></button>
             <button id="Spectator"><a id="buttonText" href="./AddingPlayer.html">Join as Spectator</a></button>
 
 

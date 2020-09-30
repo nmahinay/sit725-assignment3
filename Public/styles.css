@@ -1,8 +1,10 @@
+html,
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     background-color: #C4C4C4;
+    position: relative;
 }
 
 head {
@@ -104,11 +106,13 @@ head {
 }
 
 .players {
-    margin-left: 350px;
+    position: relative;
+    /* margin-left: 400px; */
     width: 822px;
     height: 433px;
-    left: 239px;
+    left: 400px;
     bottom: 137px;
+    top: 15px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -117,18 +121,18 @@ head {
     letter-spacing: 0.04em;
     text-decoration-line: underline;
     color: #000000;
-    padding-bottom: 200px;
 }
 
 #Spectator {
-    margin-left: 800px;
+    position: relative;
+    /* margin-left: 800px; */
     width: 227px;
     height: 85px;
-    left: 607px;
-    top: 500px;
+    left: 440px;
+    top: -503px;
     background: #8C6116;
     border: 1px solid #000000;
-    position: absolute;
+    /* position: absolute; */
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -137,16 +141,16 @@ head {
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    margin-top: 60px;
 }
 
 #player {
-    margin-left: 550px;
-    position: absolute;
+    position: relative;
+    /* margin-left: 500px; */
+    /* position: absolute; */
     width: 227px;
     height: 85px;
-    left: 607px;
-    top: 500px;
+    left: 420px;
+    top: -503px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -161,11 +165,12 @@ head {
 }
 
 #PlayerName {
-    left: 770px;
+    /* position: absolute; */
+    position: relative;
+    left: 40px;
     width: 351px;
     height: 85px;
-    position: absolute;
-    top: 500px;
+    top: -350px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
