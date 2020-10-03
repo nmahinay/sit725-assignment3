@@ -3,7 +3,7 @@ const mongo = require("./services/MongoService");
 let app = new express();
 
 // Setup DB
-mongo.openConnection();
+mongo.openConnectionPlayers();
 
 //printing logs
 var log = function (logMessage) {
