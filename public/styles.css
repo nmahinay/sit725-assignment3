@@ -1,8 +1,10 @@
+html,
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     background-color: #C4C4C4;
+    position: relative;
 }
 
 head {
@@ -101,4 +103,86 @@ head {
     letter-spacing: 0.04em;
     color: #FFFEFE;
     text-decoration: none
+}
+
+.players {
+    position: relative;
+    /* margin-left: 400px; */
+    width: 822px;
+    height: 433px;
+    left: 400px;
+    bottom: 137px;
+    top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+#Spectator {
+    position: relative;
+    /* margin-left: 800px; */
+    width: 227px;
+    height: 85px;
+    left: 440px;
+    top: -503px;
+    background: #8C6116;
+    border: 1px solid #000000;
+    /* position: absolute; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+#player {
+    position: relative;
+    /* margin-left: 500px; */
+    /* position: absolute; */
+    width: 227px;
+    height: 85px;
+    left: 420px;
+    top: -503px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #8C6116;
+    border: 1px solid #000000;
+    margin-top: 60px;
+}
+
+#PlayerName {
+    /* position: absolute; */
+    position: relative;
+    left: 40px;
+    width: 351px;
+    height: 85px;
+    top: -350px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: bottom;
+    letter-spacing: 0.04em;
+    color: #000000;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.04em;
+    background: #ffffff;
+    color: #000000;
+    margin-top: 60px;
 }
