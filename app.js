@@ -10,7 +10,7 @@ var log = function(logMessage) {
         var time = moment().format()
         console.log('[' + time + ']' + '' + logMessage)
     }
-    //dirrect app to fetch relevent files
+    //direct app to fetch relevant files
 app.use(express.static(__dirname + '/Public'));
 //set endpoint to html file
 app.get('/Game', function(req, res) {
