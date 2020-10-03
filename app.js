@@ -1,14 +1,16 @@
-let express = require('express');
-const { check } = require('express-validator');
+const Express = require("express");
+const mongo = require("./services/MongoService");
 let app = express();
-let moment = require('moment');
 
-//printing logs 
+// Setup DB
+mongo.openConnection();
+
+//printing logs
 var log = function(logMessage) {
         var time = moment().format()
         console.log('[' + time + ']' + '' + logMessage)
     }
-    //dirrect app to fetch relevent files 
+    //dirrect app to fetch relevent files
 app.use(express.static(__dirname + '/Public'));
 //set endpoint to html file
 app.get('/Game', function(req, res) {
