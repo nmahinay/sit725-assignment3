@@ -1,20 +1,21 @@
 let userID = null;
-//sign in messages
+//addingName method 
 const AddName = () => {
-    let userName = $('#PlayerName').val()
+    console.log("reaching here")
+    let Name = $('#PlayerName').val()
         //entering name validation present or not
-    if (userName.length == '') {
+    if (Name.length == '') {
         alert("Adding player name is required");
         $("#PlayerName").focus();
-    } else {
-        userID = userName
     }
-    //check if only number enetered 
-    if (parseInt(userName)) {
-        console.log(userName + " is a number.");
+    //check if only number enetered using regex
+    else if (Name.match(/^\d+$/)) {
+        alert("Adding player name can not be only numbers");
+        $("#PlayerName").focus();
+
+        console.log(Name + " is a number.");
 
     } else {
-        console.log(userName + " is NaN.");
+        userID = Name
     }
-
 }
