@@ -11,10 +11,10 @@ var log = function (logMessage) {
   console.log("[" + time + "]" + "" + logMessage);
 };
 //direct app to fetch relevant files
-app.use(express.static(__dirname + "/Public"));
+app.use(express.static(__dirname + "/public"));
 //set endpoint to html file
 app.get("/Game", function (req, res) {
-  res.sendFile(__dirname + "/Public/HomePage.html");
+  res.sendFile(__dirname + "/public/HomePage.html");
 });
 
 //Server Run
